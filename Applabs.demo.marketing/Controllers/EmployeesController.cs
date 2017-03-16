@@ -10,6 +10,7 @@ using Applabs.demo.marketing.Models;
 
 namespace Applabs.demo.marketing.Controllers
 {
+    [Authorize]
     public class EmployeesController : Controller
     {
         private ApplabsDemoEntities1 db = new ApplabsDemoEntities1();

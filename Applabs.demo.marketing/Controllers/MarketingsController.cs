@@ -12,6 +12,7 @@ using System.Diagnostics;
 
 namespace Applabs.demo.marketing.Controllers
 {
+    [Authorize]
     public class MarketingsController : Controller
     {
         private ApplabsDemoEntities3 db = new ApplabsDemoEntities3();
